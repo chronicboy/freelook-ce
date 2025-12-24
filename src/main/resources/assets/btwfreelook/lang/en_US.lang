@@ -1,0 +1,11 @@
+key.freelook=Free Look
+key.zoom=Zoom
+freelook.options.title=Freelook Options
+freelook.options.zoomfactor=Zoom Factor
+freelook.options.flrange=Freelook Range
+freelook.options.zoomsmooth=Smooth Camera on Zoom
+freelook.options.disableTP=Third Person
+freelook.options.squint=Zoom Type
+freelook.options.squint.realistic="Realistic"
+freelook.options.squint.interpolated=Interpolated
+freelook.options.squint.classic=Classic

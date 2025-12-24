@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "btwfreelook",
+  "version": "${version}",
+  "name": "BTW Freelook",
+  "description": "A port of the popular Freelook mod for BTW CE 3.0.0 with enhanced features!\nBased on the original mod by jeffinitup https://github.com/jeffinitup/btw-freelook",
+  "authors": [
+    "chronicboy31"
+  ],
+  "contact": {
+    "homepage": "https://github.com/chronicboy31/freelook-ce",
+    "sources": "https://github.com/chronicboy31/freelook-ce"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/minecraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "btw:addon": [
+      "btw.community.jeffyjamzhd.freelook.FreeLookAddon"
+    ]
+  },
+  "custom": {
+    "btw:addon_prefix": "FL"
+  },
+  "mixins": [
+    "freelook.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.6.4"
+  }
+}

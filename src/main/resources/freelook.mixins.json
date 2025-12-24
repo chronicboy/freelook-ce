@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "btw.community.jeffyjamzhd.freelook.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemRendererMixin"
+  ],
+  "client": [
+    "EntityRendererMixin",
+    "GameSettingsMixin",
+    "GuiIngameMixin",
+    "GuiOptionsMixin",
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
